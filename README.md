@@ -26,10 +26,10 @@ Data is comprised in the following CSV files:
  - `DEFAULT_JULY`: Default payment in July (1=yes, 0=no)
  
  
-**TEST** (For PART 3)
+**TEST**
  - **`test_data.csv`**
  
-**SUBMISSION** (For PART 3)
+**SUBMISSION**
  - **`submission_features.csv`**
  
 **BACKUP**

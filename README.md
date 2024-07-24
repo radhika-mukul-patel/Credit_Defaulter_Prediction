@@ -61,5 +61,7 @@ Sex:
 Delayed Repayment:
 - It is evident from the above graphs that those with revolving credit consists of the largest number of carholders and maybe that is why also the largest number of defaulters. However it is interesting to see that the second largest category with the most defaulters is 2 which is those that have delayed payment by 2 months. This is significant as the number of non defaulters in this category is almost equal to the defaulters.
 
-## C. Machine Learning
+### C. Machine Learning
+
+## Conclusion
 

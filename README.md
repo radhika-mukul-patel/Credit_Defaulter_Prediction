@@ -78,8 +78,8 @@ Data is comprised in the following CSV files:
 
 ## Conclusion
 1. Top 5 Clients as least likely to default:
+<img width="208" alt="image" src="https://github.com/user-attachments/assets/3ec1e937-e128-462c-9cc1-1291f72a4b1f">
 
-![image](https://github.com/user-attachments/assets/e89af3bf-9375-44f5-a5bb-a0434b7399e4)
 
 
 2. Optimum Threshhold of probability prediction per client to maximize profit for the bank:

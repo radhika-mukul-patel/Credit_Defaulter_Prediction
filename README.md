@@ -62,6 +62,16 @@ Data is comprised in the following CSV files:
 - It is evident from the above graphs that those with revolving credit consists of the largest number of carholders and maybe that is why also the largest number of defaulters. However it is interesting to see that the second largest category with the most defaulters is 2 which is those that have delayed payment by 2 months. This is significant as the number of non defaulters in this category is almost equal to the defaulters.
 
 ### C. Machine Learning
+#### Feature Engineering (Performed on training and test set)
+- Balance the dataset: The dataset was very unbalanced when it comes to the target variable with the minority being the default category. In this case that is the category of importance to us since we are trying to solve for prediction of credit card defaulters. This could lead to an issue as the model may lead to overall high accuracy but it could be due to high accuracy of the majority category of non-default, but low accuracy for the minority category which is of interest to us. To prevent this we must balance the dataset. In this case I chose to use the oversampling method of SMOTE which is useful when we have limited data for the minority class. The result was a very balanced dataset
+- Encode the categorical categories: Marriage and Education we encoded using one hot encoding and Sex was also changed to 1 for male and 0 for female
+- Drop columns: After checking for correlation, several columns with high correlation we dropped
+- Scaling: The numerical columns were scaled using a column transformer
+  
+#### Model Training
+- 2 models were chosen to be used: Random Forest Classifier and XGBoost Classifier
+- GridSearchCV was used to select the best parameters and the best model which was Random Forest Classifier (score of 0.91)
+- After cross validation, the model was used to predict the target of probability of a client defaulting for the month of July. 
 
 ## Conclusion
 

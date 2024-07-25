@@ -78,21 +78,13 @@ Data is comprised in the following CSV files:
 
 ## Conclusion
 1. Top 5 Clients as least likely to default:
-   
-ID	DEFAULT_PROBA
-346	29679	0.000
-909	27080	0.002
-889	17142	0.004
-914	26872	0.006
-142	23792	0.006
 
-2. Optimum Threshhold to maximize profit for the bank:
+![image](https://github.com/user-attachments/assets/e89af3bf-9375-44f5-a5bb-a0434b7399e4)
 
-	THRESHOLDS	TPos	FPos	TNeg	FNeg	Total	Profit
-0	0.10	     1897	5642	1363	98	 9000.0	873000.0
-1	0.15	     1758	4567	2438	237	9000.0	1253000.0
-2	0.20	     1592	3518	3487	403	9000.0	1472000.0
-**3	0.25	     1424	2648	4357	571	9000.0	1502000.0**
-4	0.30	     1293	2033	4972	702	9000.0	1462000.0
+
+2. Optimum Threshhold of probability prediction per client to maximize profit for the bank:
+
+<img width="419" alt="image" src="https://github.com/user-attachments/assets/d9fa112f-0878-4654-9f8d-3db685521981">
+
 
 

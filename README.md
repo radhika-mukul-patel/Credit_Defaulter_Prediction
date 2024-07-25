@@ -71,7 +71,28 @@ Data is comprised in the following CSV files:
 #### Model Training
 - 2 models were chosen to be used: Random Forest Classifier and XGBoost Classifier
 - GridSearchCV was used to select the best parameters and the best model which was Random Forest Classifier (score of 0.91)
-- After cross validation, the model was used to predict the target of probability of a client defaulting for the month of July. 
+
+#### Prediction
+- After cross validation, the model was used to predict the target of probability of a client defaulting for the month of July.
+- The predictions were saved as a CSV file  
 
 ## Conclusion
+1. Top 5 Clients as least likely to default:
+   
+ID	DEFAULT_PROBA
+346	29679	0.000
+909	27080	0.002
+889	17142	0.004
+914	26872	0.006
+142	23792	0.006
+
+2. Optimum Threshhold to maximize profit for the bank:
+
+	THRESHOLDS	TPos	FPos	TNeg	FNeg	Total	Profit
+0	0.10	     1897	5642	1363	98	 9000.0	873000.0
+1	0.15	     1758	4567	2438	237	9000.0	1253000.0
+2	0.20	     1592	3518	3487	403	9000.0	1472000.0
+**3	0.25	     1424	2648	4357	571	9000.0	1502000.0**
+4	0.30	     1293	2033	4972	702	9000.0	1462000.0
+
 
